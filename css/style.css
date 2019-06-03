@@ -311,10 +311,7 @@ button:focus {
 
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
-  background-position: center;
-  background-size: cover; }
-  .home_banner_area .banner_inner {
+}  .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
       padding-top: 197px; }
@@ -2371,15 +2368,21 @@ h6 {
   .about_area .about_img {
     position: relative;
     right: 250px; }
+
     @media (max-width: 1480px) {
       .about_area .about_img {
         right: 0; }
         .about_area .about_img img {
           max-width: 100%;
-          height: auto; } }
+          height: auto; }
+          .about_area .about_img img::before {
+            border-bottom: 1px solid purple;
+          }
+        }
     @media (max-width: 991px) {
       .about_area .about_img {
-        display: none; } }
+        display: none; }
+      }
 
 .brand_area {
   padding: 100px 0 170px; }
@@ -2567,6 +2570,9 @@ h6 {
 
 .single_portfolio {
   position: relative; }
+  .single_portfolio img {
+    border-radius: 5px;
+  }
   .single_portfolio .overlay {
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
