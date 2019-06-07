@@ -2709,7 +2709,7 @@ h6 {
 
 .subscription_box {
   background: url(../img/subscribe-bg.png) no-repeat center;
-  padding: 150px 0px; }
+  padding: 150px 0px 100px; }
   @media (max-width: 767px) {
     .subscription_box {
       padding: 50px 20px; } }
@@ -2720,7 +2720,9 @@ h6 {
       .subscription_box h2 {
         font-size: 30px; } }
   .subscription_box p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 18px;
+   }
   .subscription_box .subscription input, .subscription_box .subscription textarea {
     min-width: 380px;
     max-width: 380px;
@@ -2749,16 +2751,40 @@ h6 {
       color: #ffffff;
       font-weight: 400; }
   .subscription_box .primary-btn {
-    margin-left: 10px;
+    display: inline-block;
+    margin: 30px 0;
     background: #ffffff;
-    text-transform: uppercase;
     color: #222222;
     border-radius: 5px;
     line-height: 48px;
-    font-size: 14px;
+    font-size: 17px;
     font-family: "Rubik", sans-serif;
-    padding: 0px 38px;
-    cursor: pointer; }
+    padding: 5px 34px 5px 44px;
+    cursor: pointer;
+    position: relative;
+    }
+    .subscription_box .primary-btn i {
+      color: #fff;
+      font-size: 40px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: #6feb77;
+      padding: 9px;
+      border-radius: 5px 0 0 5px;
+    }
+    .subscription_box .primary-btn span::before {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+      width: 0;
+      height: 0;
+
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 20px solid #6feb77;
+    }
     @media (max-width: 767px) {
       .subscription_box .primary-btn {
         margin-top: 20px; } }
@@ -2918,7 +2944,9 @@ h6 {
 
   .contact_info {
     margin-bottom: 50px; }
-
+  .subscription_box .wp_button {
+    background-color: #fff !important;
+  }
   .home_banner_area .donation_inner {
     margin-bottom: -30px; }
 
