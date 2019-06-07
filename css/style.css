@@ -2566,7 +2566,12 @@ h6 {
       font-size: 20px;
       margin-bottom: 0px; }
       .portfolio_box .short_info h4 a {
-        color: #000000; }
+        color: #000000;
+      }
+
+      .portfolio_box .short_info h4 a:hover{
+        color: #4458dc;
+      }
 
 .single_portfolio {
   position: relative; }
