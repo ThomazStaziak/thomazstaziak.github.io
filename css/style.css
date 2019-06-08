@@ -2362,6 +2362,10 @@ h6 {
     .about_area .main_title p {
       margin-bottom: 20px;
       font-size: 20px;
+      line-height: 28px;
+     }
+     .about_area .main_title p strong {
+       font-weight: normal;
      }
   .about_area .primary_btn {
     margin-top: 20px; }
@@ -2763,10 +2767,12 @@ h6 {
     border-radius: 5px;
     line-height: 48px;
     font-size: 17px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     font-family: "Rubik", sans-serif;
     padding: 5px 34px 5px 44px;
     cursor: pointer;
     position: relative;
+    transition: all 1s;
     }
     .subscription_box .primary-btn i {
       color: #fff;
@@ -2789,6 +2795,12 @@ h6 {
       border-top: 20px solid transparent;
       border-bottom: 20px solid transparent;
       border-left: 20px solid #6feb77;
+    }
+
+    .subscription_box .primary-btn:hover span::before{
+      transform: rotate(90deg);
+      position: relative;
+      top: 35px;
     }
     @media (max-width: 767px) {
       .subscription_box .primary-btn {
