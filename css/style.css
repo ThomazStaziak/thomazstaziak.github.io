@@ -138,6 +138,22 @@ button:focus {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+.logo_h {
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+.abbr {
+  font-weight: bold;
+  border-bottom: 3px solid;
+  margin-right: 15px;
+  border-image-source: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+  border-image-slice: 1;
+  background: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .primary_btn {
   display: inline-block;
   color: #fff;
