@@ -2385,9 +2385,6 @@ h6 {
      }
   .about_area .primary_btn {
     margin-top: 20px; }
-  .about_area .about_img {
-    position: relative;
-    right: 250px; }
 
     @media (max-width: 1480px) {
       .about_area .about_img {
@@ -2399,10 +2396,6 @@ h6 {
             border-bottom: 1px solid purple;
           }
         }
-    @media (max-width: 991px) {
-      .about_area .about_img {
-        display: none; }
-      }
 
 .brand_area {
   padding: 100px 0 170px; }

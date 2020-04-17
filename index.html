@@ -1,428 +1,708 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img/icon.png" type="image/png" />
+    <title>Portfólio do Thomaz</title>
+    <meta
+      name="description"
+      content="E aí, me chamo Thomaz e sou desenvolvedor web, tá afim de conhecer meu trabalho?"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors/linericon/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/icon.png" type="image/png">
-	<title>Thomaz's Portfolio</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+  <body>
+    <header class="header_area">
+      <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand logo_h" href="index.html"
+              ><span class="abbr"><span id="logoName"></span></span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#begin">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#stack">Minha Stack</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#empresas">Empresas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfólio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contato">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-<body>
+    <section id="begin" class="home_banner_area">
+      <div class="banner_inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="banner_content">
+                <h3 class="text-uppercase">E aí</h3>
+                <h1 class="text-uppercase">Eu sou o Thomaz</h1>
+                <h5 class="text-uppercase">Desenvolvedor Web Full Stack</h5>
+                <div class="d-flex align-items-center">
+                  <a class="primary_btn" href="#contato"
+                    ><span>Contrate-me</span></a
+                  >
+                  <a class="primary_btn tr-bg" href="#about"
+                    ><span>Saber mais</span></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="home_right_img">
+                <img class="" src="img/programmer.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<a class="navbar-brand logo_h" href="index.html"><span class="abbr"><span id="logoName"></span></span> </a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item"><a class="nav-link" href="#begin">Início</a></li>
-							<li class="nav-item"><a class="nav-link" href="#about">Sobre mim</a></li>
-							<li class="nav-item"><a class="nav-link" href="#stack">Minha Stack</a></li>
-							<li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
-							<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
+    <section id="about" class="about_area section_gap">
+      <div class="container">
+        <div class="row justify-content-start align-items-center">
+          <div class="col-12 col-md-6 p-2">
+            <div class="about_img">
+              <img class="" src="img/thomaz.png" alt="" />
+            </div>
+          </div>
 
-	<section id="begin" class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7">
-						<div class="banner_content">
-							<h3 class="text-uppercase">E aí</h3>
-							<h1 class="text-uppercase">Eu sou o Thomaz</h1>
-							<h5 class="text-uppercase">Desenvolvedor Web Full Stack</h5>
-							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="#contato"><span>Contrate-me</span></a>
-								<a class="primary_btn tr-bg" href="#about"><span>Saber mais</span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5">
-						<div class="home_right_img">
-							<img class="" src="img/programmer.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+          <div class="offset-md-1 col -12 col-md-5">
+            <div class="main_title text-left">
+              <h2>Conheça minha história</h2>
+              <p>
+                Sou programador Web Full Stack. Já atuei com linguagens de alto
+                e baixo nível desde de C a Node.js e passei por diversas
+                imersões com foco em programação.
+                <strong>
+                  Uma dessas imersões aconteceu no Vale do Silício onde eu
+                  fiquei programando dez horas por dia durante quatro
+                  semanas.</strong
+                >
+                Sou fascinado tanto pelo front-end (parte visual da aplicação)
+                quanto pelo back-end (parte lógica/regra de negócio da
+                aplicação), porém tenho aquela paixão maior pelo back-end. Amo
+                trazer solução, praticidade e mellhoria para a vida das pessoas.
+              </p>
+              <a
+                class="primary_btn"
+                target="_blank"
+                href="https://www.linkedin.com/in/thomaz-staziak-87100b158/"
+                ><span>Confira meu LinkedIn</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section id="about" class="about_area section_gap">
-		<div class="container">
-			<div class="row justify-content-start align-items-center">
-				<div class="col-lg-5">
-					<div class="about_img">
-						<img class="" src="img/thomaz.png" alt="">
-					</div>
-				</div>
+    <section id="stack" class="brand_area section_gap_bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/HTML"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img src="img/brands/html.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets"
+                      target="_blank"
+                      ><img src="img/brands/css.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/JavaScript"
+                      target="_blank"
+                      ><img src="img/brands/js.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/React_(JavaScript)"
+                      target="_blank"
+                      ><img src="img/brands/react.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/Node.js"
+                      target="_blank"
+                      ><img src="img/brands/nodejs.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/MongoD"
+                      target="_blank"
+                      ><img src="img/brands/mongodb.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/Laravel"
+                      target="_blank"
+                      ><img src="img/brands/laravel.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/PHP"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img src="img/brands/php.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/MySQL"
+                      target="_blank"
+                      ><img src="img/brands/mysql.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/Git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img src="img/brands/git.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/Sass_(linguagem_de_folhas_de_estilos)"
+                      target="_blank"
+                      ><img src="img/brands/sass.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <a
+                      href="https://pt.wikipedia.org/wiki/Linux"
+                      target="_blank"
+                      ><img src="img/brands/linux.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offset-lg-2 col-lg-4 col-md-6">
+            <div class="client-info">
+              <div class="d-flex mb-50">
+                <span class="lage">12</span>
+                <span class="smll"
+                  >Essas são algumas das tecnologias dominadas <br />
+                  por mim</span
+                >
+              </div>
+              <div class="call-now d-flex">
+                <div class="ml-15">
+                  <p>Conheça minha área de atuaçāo</p>
+                  <h4>Clique nos ícones e saiba mais!</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<div class="offset-lg-1 col-lg-5">
-					<div class="main_title text-left">
-						<h2>Vamos falar um pouco sobre mim?</h2>
-						<p>
-							Sou programador Web Full Stack. Já atuei com linguagens de alto e baixo nível desde de C a Node.js e passei por diversas imersões com foco em programação. <strong> Uma dessas imersões aconteceu no Vale do Silício onde eu fiquei programando dez horas por dia durante quatro semanas.</strong> Sou fascinado tanto pelo front-end (parte visual da aplicação) quanto pelo back-end (parte lógica/regra de negócio da aplicação), porém tenho aquela paixão maior pelo back-end. Amo trazer solução, praticidade e mellhoria para a vida das pessoas.
-						</p>
-						<a class="primary_btn" target="_blank" href="https://www.linkedin.com/in/thomaz-staziak-87100b158/"><span>Confira meu LinkedIn</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="features_area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="main_title">
+              <h2>Entenda meu trabalho</h2>
+              <p>
+                Nessa seçāo irei contar como funciona meu trabalho <br />
+                e quais serviços eu posso oferecer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row feature_inner">
+          <div class="col-lg-3 col-md-6">
+            <div class="feature_item border">
+              <img src="img/services/s1.png" alt="" />
+              <h4>Solução Web</h4>
+              <p>
+                Crio sites, sistemas e aplicações web, que tragam solução para
+                seu negócio.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feature_item border">
+              <img src="img/services/s2.png" alt="" />
+              <h4>UI Design</h4>
+              <p>
+                Aplicações voltadas para a melhor interação do usuário com a
+                plataforma.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feature_item border">
+              <img src="img/services/s3.png" alt="" />
+              <h4>Site Expresso</h4>
+              <p>
+                Site desenvolvido com gestão ágil e em curtos espaços de tempo.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feature_item border">
+              <img src="img/services/s4.png" alt="" />
+              <h4>SEO otimizado</h4>
+              <p>
+                Trabalho os pilares de SEO para o melhor rankeamento no Google.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section id="stack" class="brand_area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/HTML" target="_blank"><img src="img/brands/html.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img src="img/brands/css.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank"><img src="img/brands/js.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/React_(JavaScript)" target="_blank"><img src="img/brands/react.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/Node.js" target="_blank"><img src="img/brands/nodejs.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/MongoD" target="_blank"><img src="img/brands/mongodb.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/Laravel" target="_blank"><img src="img/brands/laravel.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/PHP" target="_blank"><img src="img/brands/php.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/MySQL" target="_blank"><img src="img/brands/mysql.svg" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/Git" target="_blank"><img src="img/brands/git.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/Sass_(linguagem_de_folhas_de_estilos)" target="_blank"><img src="img/brands/sass.svg" alt=""></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<a href="https://pt.wikipedia.org/wiki/Linux" target="_blank"><img src="img/brands/linux.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-4 col-md-6">
-					<div class="client-info">
-						<div class="d-flex mb-50">
-							<span class="lage">12</span>
-							<span class="smll">Tecnologias dominadas <br> por mim</span>
-						</div>
-						<div class="call-now d-flex">
-							<div class="ml-15">
-								<p>Conheça minha área de atuaçāo</p>
-								<h4>Clique nos ícones e saiba mais!</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="empresas" class="section_gap">
+      <div class="container">
+        <div class="row">
+          <div class="main_title text-left">
+            <h2>Empresas que colaborei</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="single-brand-item d-table">
+              <div class="d-table-cell text-center">
+                <a
+                  href="https://moneymoneyinvest.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="img/companies/mm.png"
+                    alt="Logo Money Money Invest"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="single-brand-item d-table">
+              <div class="d-table-cell text-center">
+                <a
+                  href="https://www.digitalhouse.com/br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="125"
+                    height="21"
+                    viewBox="0 0 125 21"
+                  >
+                    <g fill="none" fill-rule="evenodd">
+                      <path
+                        fill="#BC002E"
+                        d="M7.801 12.72c0 1.198-.584 1.795-1.751 1.795H2.625c-.179 0-.268-.09-.268-.267V2.306c0-.16.09-.244.268-.244H6.05c1.167 0 1.751.083 1.751 1.28v9.377zM9.173.982c.67.656 1.009 1.067 1.009 2.263v9.57c0 1.181-.339 2.104-1.01 2.769-.672.661-1.6.993-2.782.993H.415c-.278 0-.415-.137-.415-.412V.413C0 .136.137 0 .415 0H6.39C7.572 0 8.5.327 9.173.983zm5.163 3.219c.274 0 .413.136.413.41v11.554c0 .161-.03.27-.084.328-.059.056-.16.084-.306.084h-1.556c-.273 0-.411-.137-.411-.412V4.612c0-.274.129-.41.388-.41h1.556zM14.36.057c.258 0 .39.13.39.388V2.14c0 .273-.132.411-.39.411h-1.58c-.259 0-.388-.138-.388-.41V.444c0-.258.13-.388.387-.388h1.58zm9.67 11.789v-5.34c0-.16-.089-.242-.267-.242H20.87c-1.15 0-1.725.6-1.725 1.795v4.03c0 1.196.575 1.795 1.725 1.795h1.166c1.329 0 1.993-.68 1.993-2.038zM25.974 4.2c.291 0 .437.137.437.412v12.016c0 1.18-.337 2.097-1.008 2.753-.674.655-1.601.981-2.783.981h-4.568c-.275 0-.413-.129-.413-.386v-1.263c0-.276.138-.413.413-.413h4.203c1.183 0 1.775-.599 1.775-1.795V14.66h-.098c-.405.873-1.223 1.31-2.455 1.31h-1.093c-1.165 0-2.06-.326-2.683-.98-.624-.656-.936-1.583-.936-2.782V7.96c0-1.196.332-2.122.997-2.777.663-.655 1.585-.982 2.769-.982h5.443zM30.565.057c.26 0 .39.13.39.388V2.14c0 .273-.13.411-.39.411h-1.578c-.26 0-.39-.138-.39-.41V.444c0-.258.13-.388.39-.388h1.578zm-.024 4.145c.274 0 .413.136.413.41v11.554c0 .161-.028.27-.086.328-.057.056-.157.084-.303.084H29.01c-.276 0-.413-.137-.413-.412V4.612c0-.274.13-.41.39-.41h1.554zm8.383 10.313c.29 0 .437.137.437.413v1.263c0 .259-.146.387-.437.387H37.61c-1.2 0-2.138-.323-2.818-.97-.68-.648-1.022-1.56-1.022-2.742v-6.36c0-.161-.08-.242-.242-.242h-1.166c-.161 0-.271-.029-.327-.085-.058-.056-.085-.16-.085-.304V4.612c0-.274.137-.41.412-.41h1.166c.163 0 .242-.084.242-.244V.483c0-.276.147-.415.439-.415h1.53c.276 0 .412.139.412.415v3.475c0 .16.09.244.268.244h2.26c.291 0 .437.136.437.41v1.263c0 .258-.146.389-.437.389h-2.26c-.179 0-.268.08-.268.242v6.239c0 1.18.608 1.77 1.824 1.77h.948zm8.818-2.063V6.506c0-.161-.088-.242-.268-.242h-2.89c-1.166 0-1.75.6-1.75 1.795v4.66c0 1.199.584 1.796 1.75 1.796h1.166c1.328 0 1.992-.687 1.992-2.063zm1.943-8.25c.293 0 .439.136.439.41v11.554c0 .274-.146.412-.439.412h-1.53c-.274 0-.413-.138-.413-.412v-.875h-.098c-.387.858-1.207 1.287-2.452 1.287h-.948c-1.199 0-2.125-.331-2.783-.994-.655-.664-.983-1.587-.983-2.769V7.961c0-1.197.328-2.123.983-2.778.658-.655 1.584-.981 2.783-.981h5.441zm4.569-4.17c.276 0 .414.14.414.413v15.72c0 .276-.138.413-.414.413h-1.531c-.275 0-.413-.137-.413-.412V.446c0-.275.138-.414.413-.414h1.53z"
+                      />
+                      <path
+                        fill="#272726"
+                        d="M66.864 0c.178 0 .268.098.268.292v15.993c0 .197-.09.293-.268.293h-.703c-.164 0-.244-.096-.244-.293V9.418c0-.144-.08-.219-.245-.219H58.87c-.162 0-.242.075-.242.22v6.866c0 .197-.09.293-.268.293h-.704c-.162 0-.244-.096-.244-.293V.292c0-.194.082-.292.244-.292h.704c.178 0 .268.098.268.292V7.89c0 .145.08.218.242.218h6.802c.164 0 .245-.073.245-.218V.292c0-.194.08-.292.244-.292h.703zm10.643 13.107V7.672c0-.762-.2-1.35-.597-1.761-.397-.413-.967-.62-1.713-.62h-1.894c-.746 0-1.314.207-1.701.62-.388.412-.585.999-.585 1.76v5.436c0 .762.197 1.347.585 1.76.387.412.955.62 1.701.62h1.894c.746 0 1.316-.208 1.713-.62.396-.413.597-.998.597-1.76zm-2.214-8.905c1.055 0 1.89.306 2.506.922.614.613.922 1.453.922 2.521v5.486c0 1.069-.308 1.91-.922 2.524-.616.616-1.451.923-2.506.923h-2.088c-1.052 0-1.882-.307-2.49-.923-.607-.614-.911-1.455-.911-2.524V7.645c0-1.068.304-1.908.91-2.52.609-.617 1.439-.923 2.491-.923h2.088zm14.264 0c.16 0 .243.095.243.29v11.793c0 .197-.082.293-.243.293h-.704c-.178 0-.268-.096-.268-.293v-.969h-.098c-.42.842-1.264 1.262-2.527 1.262h-1.603c-1.037 0-1.856-.307-2.454-.924-.6-.613-.898-1.454-.898-2.523v-8.64c0-.194.08-.29.242-.29h.706c.176 0 .266.096.266.29v8.593c0 .76.195 1.352.583 1.77.39.423.955.632 1.701.632h1.58c.777 0 1.387-.207 1.833-.619.445-.413.669-.998.669-1.76V4.49c0-.194.09-.29.268-.29h.704zm8.14 6.019c.84.273 1.404.682 1.688 1.224.283.542.425 1.3.425 2.27s-.272 1.69-.815 2.16c-.542.468-1.381.703-2.514.703h-4.227c-.18 0-.27-.088-.27-.268v-.557c0-.162.09-.244.27-.244h4.105c1.458 0 2.187-.565 2.187-1.697v-.582c0-1.051-.453-1.74-1.361-2.064L94.148 10c-.825-.322-1.413-.703-1.761-1.14-.35-.435-.523-1.042-.523-1.819 0-1.893 1.045-2.84 3.136-2.84h3.933c.18 0 .27.088.27.267v.559c0 .16-.09.24-.27.24h-3.812c-.666 0-1.161.145-1.496.438-.33.291-.497.63-.497 1.018v.558c0 .454.125.811.376 1.07.253.26.636.476 1.154.655l3.04 1.215zm11.734-.39V7.67c0-.761-.194-1.348-.583-1.76-.389-.413-.955-.62-1.7-.62h-1.921c-.745 0-1.312.207-1.699.62-.39.412-.584.999-.584 1.76v2.16c0 .146.072.22.219.22h6.05c.146 0 .218-.074.218-.22zM107.22 4.2c1.052 0 1.887.307 2.502.923.615.613.925 1.453.925 2.521v3.084c0 .194-.099.292-.292.292h-7.192c-.147 0-.22.073-.22.217v1.869c0 .762.195 1.347.585 1.76.387.412.954.62 1.699.62h4.981c.179 0 .268.088.268.266v.556c0 .181-.09.269-.268.269h-5.078c-1.053 0-1.883-.307-2.49-.923-.606-.614-.912-1.455-.912-2.524V7.645c0-1.068.306-1.908.911-2.52.608-.617 1.438-.923 2.491-.923h2.09zm17.372 5.43c.193.138.295.27.295.582v.357c0 .314-.102.444-.295.583l-8.729 5.381c-.226.118-.43 0-.43-.23v-.34c0-.365.106-.426.25-.515l8.115-5.058-8.115-5.055c-.144-.09-.25-.151-.25-.517v-.34c0-.228.204-.347.43-.228l8.729 5.38z"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="single-brand-item d-table">
+              <div class="d-table-cell text-center">
+                <a
+                  href="https://inmano.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/companies/inmano.png" alt="Logo inMano"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="single-brand-item d-table">
+              <div class="d-table-cell text-center">
+                <a
+                  href="http://legacyinvest.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/companies/legacy.png" alt="Logo Legacy"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="single-brand-item d-table">
+              <div class="d-table-cell text-center">
+                <a
+                  href="https://builderdesign.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="img/companies/builder.jpg"
+                    alt="Logo builder design"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="single-brand-item d-table">
+              <div class="d-table-cell text-center">
+                <a
+                  href="http://cellinihome.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/companies/cellini.png" alt="Logo Cellini"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="single-brand-item d-table">
+              <div class="d-table-cell text-center">
+                <a
+                  href="http://escudodobem.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/companies/escudo.png" alt="Logo escudo do bem"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section class="features_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<h2>Entenda meu trabalho</h2>
-						<p>
-							Nessa seçāo irei contar como funciona meu trabalho <br> e quais serviços eu posso oferecer.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row feature_inner">
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s1.png" alt="">
-						<h4>Solução Web</h4>
-						<p>Crio sites, sistemas e aplicações web, que tragam solução para seu negócio.</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s2.png" alt="">
-						<h4>UI Design</h4>
-						<p>Aplicações voltadas para a melhor interação do usuário com a plataforma.</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s3.png" alt="">
-						<h4>Site Expresso</h4>
-						<p>Site desenvolvido com gestão ágil e em curtos espaços de tempo.</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s4.png" alt="">
-						<h4>SEO otimizado</h4>
-						<p>Trabalho os pilares de SEO para o melhor rankeamento no Google.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="portfolio" class="portfolio_area" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="main_title text-left">
+              <h2>Veja os meus projetos</h2>
+            </div>
+          </div>
+        </div>
+        <div class="filters portfolio-filter">
+          <ul>
+            <li class="active" data-filter="*">Todos</li>
+            <li data-filter=".popular">Feitos</li>
+            <li data-filter=".following">Estão por vir</li>
+          </ul>
+        </div>
 
-	<section id="portfolio" class="portfolio_area" id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title text-left">
-						<h2> Veja os meus projetos </h2>
-					</div>
-				</div>
-			</div>
-			<div class="filters portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">Todos</li>
-					<li data-filter=".popular">Feitos</li>
-					<li data-filter=".following">Estão por vir</li>
-				</ul>
-			</div>
+        <div class="filters-content">
+          <div class="row portfolio-grid justify-content-center">
+            <div class="col-lg-4 col-md-6 all popular">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/desktop.jpg"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/desktop.jpg" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4><a href="#">Blogger 1.0</a></h4>
+                  <p>Blog de natureza</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 all popular">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/desktop-2.jpg"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/desktop-2.jpg" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4><a href="#">tinker's bakery</a></h4>
+                  <p>Site de padaria</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 all following">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/desktop-3.jpg"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/desktop-3.jpg" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4><a href="#">Landseeker</a></h4>
+                  <p>Site de fotografia</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 all following">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/desktop-4.jpg"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/desktop-4.jpg" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4><a href="#">We Grow</a></h4>
+                  <p>Aplicação de rendimentos</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 all following">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/desktop-5.jpg"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/desktop-5.jpg" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4>Avilon</h4>
+                  <p>Gerenciador de tarefas</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 all popular">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/desktop-6.jpg"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/desktop-6.jpg" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4><a href="#">Squad</a></h4>
+                  <p>Site de viagem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-			<div class="filters-content">
-				<div class="row portfolio-grid justify-content-center">
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/desktop.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/desktop.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="#">Blogger 1.0</a></h4>
-								<p>Blog de natureza</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/desktop-2.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/desktop-2.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="#">tinker's bakery</a></h4>
-								<p>Site de padaria</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/desktop-3.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/desktop-3.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="#">Landseeker</a></h4>
-								<p>Site de fotografia</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/desktop-4.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/desktop-4.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="#">We Grow</a></h4>
-								<p>Aplicação de rendimentos</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/desktop-5.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/desktop-5.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4>Avilon</h4>
-								<p>Gerenciador de tarefas</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/desktop-6.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/desktop-6.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="#">Squad</a></h4>
-								<p>Site de viagem</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="contato" class="newsletter_area">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-12">
+            <div class="subscription_box text-center">
+              <h2 class="text-uppercase text-white">
+                Quer entrar em contato comigo?
+              </h2>
+              <p class="text-white">
+                Clique no botão para me mandar uma mensagem no Whatsapp.
+              </p>
+              <a
+                id="wpButton"
+                target="_blank"
+                class="primary-btn hover"
+                href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995830128"
+                ><i class="fa fa-whatsapp"></i> <span>Mensagem</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section id="contato" class="newsletter_area">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-12">
-					<div class="subscription_box text-center">
-						<h2 class="text-uppercase text-white">Quer entrar em contato comigo?</h2>
-						<p class="text-white">
-							Clique no botão para me mandar uma mensagem no Whatsapp.
-						</p>
-						<a id="wpButton" target="_blank" class="primary-btn hover" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995830128"><i class="fa fa-whatsapp"></i> <span>Mensagem</span> </a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <footer class="footer_area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="footer_top flex-column">
+              <div class="footer_logo">
+                <h4>Me Siga nas redes sociais!</h4>
+              </div>
+              <div class="footer_social">
+                <a
+                  href="https://www.linkedin.com/in/thomaz-staziak-87100b158/"
+                  target="_blank"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/thomaz.staziak.7"
+                  target="_blank"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/thostaziak/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a
+                  href="https://github.com/ThomazStaziak"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer_bottom justify-content-center">
+          <p class="col-lg-8 col-sm-12 footer-text">
+            Desenvolvido por &copy; Thomaz Staziak
+          </p>
+        </div>
+      </div>
+    </footer>
 
-	<footer class="footer_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-12">
-					<div class="footer_top flex-column">
-						<div class="footer_logo">
-							<h4>Me Siga nas redes sociais!</h4>
-						</div>
-						<div class="footer_social">
-							<a href="https://www.linkedin.com/in/thomaz-staziak-87100b158/" target="_blank"><i class="fa fa-linkedin"></i></a>
-							<a href="https://www.facebook.com/thomaz.staziak.7" target="_blank"><i class="fa fa-facebook"></i></a>
-							<a href="https://www.instagram.com/thostaziak/" target="_blank"><i class="fa fa-instagram"></i></a>
-							<a href="https://github.com/ThomazStaziak" target="_blank"><i class="fa fa-github"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row footer_bottom justify-content-center">
-				<p class="col-lg-8 col-sm-12 footer-text">
-					Desenvolvido por &copy; Thomaz Staziak
-				</p>
-			</div>
-		</div>
-	</footer>
-
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<script src="js/theme.js"></script>
-	<script src="js/main.js"></script>
-</body>
-
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
